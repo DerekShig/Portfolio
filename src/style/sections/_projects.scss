@@ -4,6 +4,8 @@
   margin-top: -10rem;
   padding-top: 15rem;
 
+  
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
@@ -75,4 +77,8 @@
       }
     }
   }
+}
+
+.icon {
+  font-size: 4rem;
 }

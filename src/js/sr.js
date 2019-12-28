@@ -3,8 +3,8 @@ export default function() {
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
     distance: '30px',
     duration: 1000,
-    desktop: true,
-    mobile: true
+    desktop: false,
+    mobile: false
   };
 
   /* Section Title */
@@ -18,12 +18,12 @@ export default function() {
   /* Hero Section */
   ScrollReveal().reveal('.hero-title', {
     ...defaultProps,
-    delay: 500,
+    delay: 0,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
   ScrollReveal().reveal('.hero-cta', {
     ...defaultProps,
-    delay: 1000,
+    delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
 
