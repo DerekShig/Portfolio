@@ -19,7 +19,7 @@
   // Custom background image
 
   background: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-position: right;
+  background-position: 25% 75%;
   background-size: cover;
 
   @include respond(phone) {
