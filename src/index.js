@@ -25,7 +25,7 @@ const particlesJSON = {
 
 "particles": {
     "number": {
-      "value": 20,
+      "value": 10,
       "density": {
         "enable": true,
         "value_area": 800
@@ -71,7 +71,7 @@ const particlesJSON = {
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 200,
       "color": "#090909",
       "opacity": 1,
       "width": 0
@@ -99,7 +99,7 @@ const particlesJSON = {
         "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
