@@ -18,14 +18,6 @@
     <script src="https://kit.fontawesome.com/5de1796dd0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-    <!-- Scrolling animations -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body>
@@ -37,13 +29,12 @@
           <h1 class="hero-title" class="load-hidden">
             Hi, my name is <span class="text-color-main">Derek Shigetomi</span>
             <br />
-            A Web Developer.
+              <span id="smaller">A <span class="typed"></span></span>
           </h1>
           <p class="hero-cta" class="load-hidden">
             <a class="cta-btn cta-btn--hero" href="#about">Learn more</a>
           </p>
         </div>
-        <div id="particles-js"></div>
       </div>
     <!-- /END Hero Section -->
 
@@ -323,8 +314,18 @@
     </footer>
     <!-- /END Footer Section -->
 
-    <!-- Particles -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script>
+  var typed = new Typed('.typed', {
+    strings: ["Web Developer", "Software Developer", "Student"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true,
+    loopCount: Infinity,
+    showCursor: true
+  });
+</script>
 
   </body>
 </html>
