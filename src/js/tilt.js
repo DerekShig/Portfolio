@@ -3,11 +3,11 @@ import tilt from 'tilt.js';
 const initTilt = () => {
   // Projects images
   $('.project-wrapper__image a div').tilt({
-    maxTilt: 0,
+    maxTilt: 1,
   });
   // About me image
 	$('#profpic').tilt({
-		maxTilt: 0,
+		maxTilt: 1,
 	});
 };
 
